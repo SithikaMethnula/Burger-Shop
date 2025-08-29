@@ -1,0 +1,42 @@
+
+body {
+      background-color: #ffffff;
+      color: #4B0082; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .navbar {
+      background: linear-gradient(90deg, #6a0dad, #b266ff);
+    }
+    .navbar-brand {
+      font-weight: bold;
+      color: #fff !important;
+    }
+    .menu-card {
+      border-radius: 15px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .menu-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(106, 13, 173, 0.3);
+    }
+    .card-body {
+      background-color: #f9f7ff;
+    }
+    .btn-purple {
+      background-color: #6a0dad;
+      color: #fff;
+      border-radius: 30px;
+    }
+    .btn-purple:hover {
+      background-color: #4b0082;
+      color: #fff;
+    }
+    footer {
+      background-color: #6a0dad;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+      border-radius: 10px 10px 0 0;
+    }
